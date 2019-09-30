@@ -1,0 +1,9 @@
+C:\Users\mateu\Desktop\projects\the-sharpest-code\the-sharpest-code\bin\Debug\netstandard2.0\the-sharpest-code.deps.json
+C:\Users\mateu\Desktop\projects\the-sharpest-code\the-sharpest-code\bin\Debug\netstandard2.0\the-sharpest-code.dll
+C:\Users\mateu\Desktop\projects\the-sharpest-code\the-sharpest-code\bin\Debug\netstandard2.0\the-sharpest-code.pdb
+C:\Users\mateu\Desktop\projects\the-sharpest-code\the-sharpest-code\obj\Debug\netstandard2.0\the-sharpest-code.csprojAssemblyReference.cache
+C:\Users\mateu\Desktop\projects\the-sharpest-code\the-sharpest-code\obj\Debug\netstandard2.0\the-sharpest-code.csproj.CoreCompileInputs.cache
+C:\Users\mateu\Desktop\projects\the-sharpest-code\the-sharpest-code\obj\Debug\netstandard2.0\the-sharpest-code.AssemblyInfoInputs.cache
+C:\Users\mateu\Desktop\projects\the-sharpest-code\the-sharpest-code\obj\Debug\netstandard2.0\the-sharpest-code.AssemblyInfo.cs
+C:\Users\mateu\Desktop\projects\the-sharpest-code\the-sharpest-code\obj\Debug\netstandard2.0\the-sharpest-code.dll
+C:\Users\mateu\Desktop\projects\the-sharpest-code\the-sharpest-code\obj\Debug\netstandard2.0\the-sharpest-code.pdb
