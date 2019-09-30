@@ -8,7 +8,7 @@ namespace the_sharpest_code
     {
         private List<Evento> eventos = new List<Evento>();
 
-        public void addEvento(Evento evento)
+        public void createEvento(Evento evento)
         {
             Evento even = new Evento();
             even.Nome = evento.Nome;
@@ -22,6 +22,40 @@ namespace the_sharpest_code
             even.Organizador = evento.Organizador;
 
             eventos.Add(even);
+        }
+
+        public Evento selectEvento(Evento evento)
+        {
+            Evento eventoSelecionado = new Evento();
+            eventoSelecionado.Nome = evento.Nome;
+            eventoSelecionado.Data = evento.Data;
+            eventoSelecionado.Descricao = evento.Descricao;
+            eventoSelecionado.HorarioInicio = evento.HorarioInicio;
+            eventoSelecionado.HorarioTermino = evento.HorarioTermino;
+            eventoSelecionado.Classificacao = evento.Classificacao;
+            eventoSelecionado.Local = evento.Local;
+            eventoSelecionado.Valor = evento.Valor;
+            eventoSelecionado.Organizador = evento.Organizador;
+
+            return eventoSelecionado;
+        }
+
+        public void updateEvento(int index, Evento e)
+        {
+            eventos[index].Nome = e.Nome;
+            eventos[index].Data = e.Data;
+            eventos[index].Descricao = e.Descricao;
+            eventos[index].HorarioInicio = e.HorarioInicio;
+            eventos[index].HorarioTermino = e.HorarioTermino;
+            eventos[index].Classificacao = e.Classificacao;
+            eventos[index].Local = e.Local;
+            eventos[index].Valor = e.Valor;
+            eventos[index].Organizador = e.Organizador;
+        }
+
+        public void deleteEvento(int index)
+        {
+            eventos.RemoveAt(index);
         }
     }
 }
